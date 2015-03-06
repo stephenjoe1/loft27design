@@ -1,0 +1,178 @@
+@import url('main.css');
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	/*font-family: avenir;
+	border-top: 20px solid red;
+	border-right: 20px solid red;
+	border-bottom: 20px solid red;
+	border-left: 20px solid red;*/
+	/*padding: 0;
+	margin: 0;*/
+	/*min-height: 100%;*/
+	/*background: red;*/
+	font-family: "Avenir",Helvetica,sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #666;
+	line-height: 1.4;
+}
+
+aside {
+	font-size: 48px;
+	line-height: 50px;
+	float: left;
+	width: 40%;
+	color: blue;
+	margin-left: 40px;
+	margin-top: 0;
+
+
+}
+aside p{
+	margin-top: 10px;
+}
+
+form {
+	float: left;
+	width:50%;
+	margin-left: 45px;
+	color: blue;
+
+}
+
+h1{
+	/*border-bottom: 5px solid black;*/
+	font-size: 24px;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+
+
+label {
+	font-weight: 700;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	clear: both;
+}
+
+input[type="text"], input[type="tel"], textarea {
+	display: block;
+	font-family: "avenir",Arial,sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: none;
+	margin: 0 0 15px 0;
+	background-color: #f8f8f8;
+	border: 2px solid #c7c7c7;
+	padding: 0.6em 0 0.5em 0.4em;
+	width: 95%;
+}
+
+input.half {
+	width: 50%;
+	float: left;
+	/*display: block;*/
+}
+
+input.third {
+	width: 30%;
+	float: left;
+	margin-right: 15px;
+}
+
+input.nth-of-type{
+	padding-bottom: 100px;
+}
+
+button {
+	background-color: blue;
+	text-indent:0;
+	display:inline-block;
+	color: white;
+	font-family:avenir;
+	font-size:16px;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+}
+button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/* utils */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+
+.clearfix:after {
+    clear: both;
+}
+
+@media only screen and (max-width : 780px) {
+
+
+aside {
+	font-size: 48px;
+	line-height: 50px;
+	float: left;
+	width: 80%;
+	color: blue;
+	margin-left: 5%;
+	margin-top: 0;
+
+
+}
+
+form {
+	float: left;
+	width:	90%;
+	margin-left: 5%;
+	color: blue;
+
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+
+aside {
+	font-size: 40px;
+	line-height: 46px;
+	margin-top: 50px;
+
+
+}
+
+
+}
+
+
+
+
+
+
+

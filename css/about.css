@@ -1,0 +1,249 @@
+@import url('main.css');
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Helvetica,sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: black;
+	line-height: 1.4;
+}
+
+
+.main-feature {
+	margin-right: 33%;
+	margin-left: 3%;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.main-feature h2 {
+	/*clear: both;*/
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: left;
+	font-size: 48px;
+	padding: 0;
+}
+.main-feature p {
+	clear: both;
+	display: block;
+	
+}
+
+p.intro {
+	font-size: 27px;
+	line-height: 30px;
+}
+
+.feature-wrap {
+	margin-left: 3%;
+	/*margin-right: 3%;*/
+}
+
+.feature {
+	float:left;
+	width:30%;
+	margin-right: 3%;
+	padding: 20px 0px;
+}
+
+.feature:last-of-type {
+	margin-right: none;
+}
+
+
+.feature h3 {
+	clear: both;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	float: left;
+/*	position: fixed;
+*/	font-size: 27px;
+	/*max-width: 50%;*/
+	padding: 0;
+}
+
+.feature ul {
+	clear: both;
+	display: block;
+	/*position: fixed;*/
+	position: relative;
+	font-size: 16px;
+	list-style-type: none;
+	padding-left: 0;
+	padding-bottom: 10px;
+
+}
+.feature li {
+	padding-bottom: 10px;
+}
+
+
+.footer {
+	clear:both;
+	margin: 100px 3% 30px 3%;
+	width: 100%;
+}
+
+
+/* utils */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+@media only screen and (max-width : 960px) {
+	.header-logo {
+		float: left;
+		position: fixed;
+		font-size: 100px;
+		margin: 2.5%;
+		/*max-width: 50%;*/
+	}
+
+	.top-space {
+		float: left;
+		height: 180px;
+		width: 100%;
+	}
+
+	.menu {
+		width: 200%;	
+	}
+
+	.main-feature {
+		font-size: 19px;
+		margin-left: 30%;
+		margin-right: 5%;
+		margin-bottom: 50px;
+		clear: both;
+		
+}
+}
+
+@media only screen and (max-width : 720px) {
+
+.main-feature {
+	margin-left: 5%;
+	margin-right: 15%;
+	margin-bottom: 50px;
+	clear: both;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.main-feature h2 {
+	clear: both;
+	display: inline-block;
+	margin-bottom: 15px;
+	float: left;
+	font-size: 40px;
+	color: blue;
+	padding: 0;
+}
+
+.feature-wrap {
+	margin-left: 5%;
+	/*margin-right: 15%*/
+	/*margin-right: 3%;*/
+}
+
+.feature {
+	float:left;
+	width:75%;
+	margin-right: 3%;
+	padding: 20px 0px;
+}
+
+}
+
+
+
+@media only screen and (max-width : 480px) {
+
+
+.header-logo {
+	z-index: 302;
+	float: left;
+	position: fixed;
+	font-size: 80px;
+	color: red;
+	margin: 2.5%;
+	/*max-width: 50%;*/
+	padding: 0;
+}
+
+#header-wrap {
+	max-width: 100%;
+	position: relative;
+	margin: 20px 20px 20px 20px;
+	overflow: hidden;
+}
+
+#menu {
+	z-index: 300;
+	float: right;
+	position: fixed;
+	font-size: 19px;
+	margin: 4% 2.5% 2.5% 50%;
+	color: red;
+	list-style-type: none;
+}
+
+.menu {
+	width: 140%;	
+}
+.top-space {
+	float: left;
+	height: 120px;
+	width: 100%;
+}
+
+.main-feature {
+
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.main-feature h2 {
+	clear: both;
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-top: 50px;
+	float: left;
+	font-size: 40px;
+	color: blue;
+	padding: 0;
+}
+
+
+#bt {
+	height: 10px;
+}
+#br {
+	width: 10px;
+}
+#bb {
+	height: 10px;
+}
+#bl {
+	width: 10px;
+}
+
+
+}
+
