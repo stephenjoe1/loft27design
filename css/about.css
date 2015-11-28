@@ -14,10 +14,15 @@ body {
 
 
 .main-feature {
-	margin-right: 33%;
 	margin-left: 3%;
 	margin-bottom: 50px;
+	width: 100%;
 	clear: both;
+}
+.main-feature-intro {
+	width: 62%;
+	float: left;
+	margin-right: 30px;
 }
 
 .main-feature h2 {
@@ -37,11 +42,12 @@ body {
 
 p.intro {
 	font-size: 27px;
-	line-height: 30px;
+	line-height: 32px;
 }
 
 .feature-wrap {
 	margin-left: 3%;
+	clear: both;
 	/*margin-right: 3%;*/
 }
 
