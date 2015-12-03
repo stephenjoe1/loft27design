@@ -15,10 +15,11 @@ body {
 a {
 	text-decoration: none;
 	color: black;
+	border-bottom: 2px solid red;
 }
 
 a:hover {
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid black;
 }
 
 
@@ -45,6 +46,7 @@ a:hover {
 
 
 p.intro {
+	width: 300px;
 	font-size: 30px;
 	line-height: 36px;
 	margin-bottom: 30px;
@@ -53,23 +55,15 @@ p.intro {
 p.intro a {
 	text-decoration: none;
 	color: black;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid red;
 }
 
 p.intro a:hover {
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid black;
 }
 
 p.coming-soon {
 	margin-bottom: 60px;
-}
-
-
-
-.feature-wrap {
-	margin-left: 3%;
-	clear: both;
-	/*margin-right: 3%;*/
 }
 
 .feature {
@@ -90,16 +84,13 @@ p.coming-soon {
 	margin-top: 5px;
 	margin-bottom: 10px;
 	float: left;
-/*	position: fixed;
-*/	font-size: 27px;
-	/*max-width: 50%;*/
+	font-size: 27px;
 	padding: 0;
 }
 
 .feature ul {
 	clear: both;
 	display: block;
-	/*position: fixed;*/
 	position: relative;
 	font-size: 16px;
 	list-style-type: none;
@@ -192,6 +183,12 @@ p.coming-soon {
 	width:75%;
 	margin-right: 3%;
 	padding: 20px 0px;
+}
+
+p.intro {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 30px;
 }
 
 }

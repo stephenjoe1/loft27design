@@ -7,6 +7,7 @@
 .col-2-3 {
   width: 66.66%;
 }
+
 .col-1-3 {
   width: 33.33%;
 }
@@ -17,48 +18,12 @@ body {
 	font-size: 16px;
 	color: black;
 	line-height: 1.4;
+	background-color: #F8F8F8;
 }
-
-
-
-#bt, #br, #bb, #bl {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: black;
-	z-index: 150;
-}
-
-#bt {
-	width: 100%;
-	height: 20px;
-}
-#br {
-	left: auto;
-	right: 0;
-	width: 20px;
-	height: 120%;
-}
-#bb {
-	width: 100%;
-	height: 20px;
-	top: auto;
-	bottom: 0;
-}
-#bl {
-	width: 20px;
-	height: 120%;
-}
-
-/*.top-space {
-	vertical-align: center;
-	height: 200px;
-	width: 100%;
-}*/
 
 
 .header-wrapper {
-	margin-bottom: 120px;
+	margin-bottom: 90px;
 	max-width: 100%;
 	z-index: 12;
 	height: 60px;
@@ -67,7 +32,6 @@ body {
 .menu {
 	z-index: 101;
 	position: fixed;
-	width: 240%;
 	margin-top: 2.5%;
 	display: block;
 	margin: auto;
@@ -87,12 +51,7 @@ body {
 	margin-bottom: 10px;
 	margin-right: 50px;
 	border-bottom: 2px solid black;
-
 }
-
-/*.menu li:before {
-content: " • ";
-}*/
 
 .menu li:first-child:before {
 content: none;
@@ -103,14 +62,8 @@ content: none;
 	text-decoration: none;
 }
 
-.menu li a:hover {
-	border-bottom: 2px solid red;
-}
-
-
-
 #section {
-	max-width:960px;
+	max-width: 960px;
 	clear: both;
 	margin: auto;
 	overflow: hidden;
@@ -118,35 +71,20 @@ content: none;
 }
 
 #section img {
-	/*clear: both;*/
 	width: 100%;
 	display: block;
-	/*padding-left: 100px;*/
-	/*position: relative;*/
-	/*float: auto;*/
-	/*margin: 0 auto;*/
-	/*display: inline-block;*/
 }
 
 .image-name {
     width:100%;
     display:block;
     position:relative;
-    /*font-size: 80px;
-    text-align: center;
-    color: white;*/
-    /*padding-top: 100px;*/
-     /*added*/
 }
+
 .image-name a {
     color: white;
-    /*font-size: 80px;
-    text-align: center;
-    color: white;*/
-    /*padding-top: 100px;*/
-     /*added*/
 }
-/*added*/
+
 .overlay {
     position:absolute;
     font-size: 60px;
@@ -226,6 +164,17 @@ content: none;
 
 
 @media only screen and (max-width : 960px) {
+
+
+	.menu {
+		position: relative;
+
+	}
+
+	.header-wrapper {
+	margin-bottom: 60px;
+}
+
 	.header-logo {
 		float: left;
 		position: fixed;
