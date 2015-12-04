@@ -18,7 +18,6 @@ body {
 	font-size: 16px;
 	color: black;
 	line-height: 1.4;
-	background-color: #F8F8F8;
 }
 
 
@@ -280,9 +279,6 @@ content: none;
 	list-style-type: none;
 }
 
-.menu {
-	width: 140%;	
-}
 .top-space {
 	float: left;
 	height: 120px;
@@ -290,18 +286,6 @@ content: none;
 }
 
 
-#bt {
-	height: 10px;
-}
-#br {
-	width: 10px;
-}
-#bb {
-	height: 10px;
-}
-#bl {
-	width: 10px;
-}
 
 
 }
