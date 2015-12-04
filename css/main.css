@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.col-2-3 {
-  width: 66.66%;
-}
-
-.col-1-3 {
-  width: 33.33%;
-}
-
 .header-wrapper {
 	margin-bottom: 90px;
 	max-width: 100%;
@@ -31,7 +23,8 @@
 }
 
 .menu ul {
-	font-size: 27px;
+	font-size: 19px;
+	letter-spacing: 2px;
 	color: red;
 	list-style: none;
 }
@@ -224,12 +217,6 @@ content: none;
 		transition: all .25s ease-in-out;
 	}
 
-.top-space {
-	float: left;
-	height: 180px;
-	width: 100%;
-}
-
 }
 
 @media only screen and (max-width : 480px) {
@@ -257,12 +244,6 @@ content: none;
 	margin: 4% 2.5% 2.5% 50%;
 	color: red;
 	list-style-type: none;
-}
-
-.top-space {
-	float: left;
-	height: 120px;
-	width: 100%;
 }
 
 }
