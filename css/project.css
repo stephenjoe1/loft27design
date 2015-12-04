@@ -6,16 +6,10 @@
 
 
 #section img {
-	/*clear: both;*/
 	width: 100%;
 	display: block;
 	margin-bottom: 45px;
 	max-width: 960px;
-	/*padding-left: 100px;*/
-	/*position: relative;*/
-	/*float: auto;*/
-	/*margin: 0 auto;*/
-	/*display: inline-block;*/
 }
 
 .main-feature {

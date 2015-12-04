@@ -44,33 +44,13 @@ a:hover {
 	padding: 0;
 }
 
-
-p.intro {
-	width: 300px;
-	font-size: 30px;
-	line-height: 36px;
-	margin-bottom: 30px;
-}
-
-p.intro a {
-	text-decoration: none;
-	color: black;
-	border-bottom: 2px solid red;
-}
-
-p.intro a:hover {
-	border-bottom: 2px solid black;
-}
-
-p.coming-soon {
-	margin-bottom: 60px;
-}
-
 .feature {
 	float:left;
 	width:30%;
-	margin-right: 3%;
+	margin-right: 45px;
 	padding: 20px 0px;
+	font-size: 24px;
+	font-weight: 400;
 }
 
 .feature:last-of-type {
@@ -89,18 +69,52 @@ p.coming-soon {
 }
 
 .feature ul {
+	font-weight: 700;
 	clear: both;
 	display: block;
-	position: relative;
 	font-size: 16px;
 	list-style-type: none;
-	padding-left: 0;
 	padding-bottom: 10px;
 
 }
 .feature li {
 	padding-bottom: 5px;
 }
+
+
+.intro {
+	float:left;
+	width:60%;
+	margin-right: 45px;
+	padding: 20px 0px;
+}
+
+.intro h2 {
+	width: 50%;
+	font-size: 42px;
+	line-height: 50px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	margin-top: 0px;
+}
+
+.intro p a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid red;
+}
+
+.intro p a:hover {
+	border-bottom: 2px solid black;
+}
+
+.intro p {
+	width: 50%;
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: 300;
+}
+
 
 
 .footer {
@@ -149,6 +163,10 @@ p.coming-soon {
 		clear: both;
 		
 	}
+
+	.feature ul {
+	padding-left: 0px;
+}
 }
 
 @media only screen and (max-width : 720px) {
@@ -168,8 +186,6 @@ p.coming-soon {
 	margin-bottom: 15px;
 	float: left;
 	font-size: 40px;
-	color: blue;
-	padding: 0;
 }
 
 .feature-wrap {
@@ -191,23 +207,15 @@ p.intro {
 	margin-bottom: 30px;
 }
 
+.feature ul {
+	padding-left: 0px;
+}
+
 }
 
 
 
 @media only screen and (max-width : 480px) {
-
-
-.header-logo {
-	z-index: 302;
-	float: left;
-	position: fixed;
-	font-size: 80px;
-	color: red;
-	margin: 2.5%;
-	/*max-width: 50%;*/
-	padding: 0;
-}
 
 #header-wrap {
 	max-width: 100%;
@@ -226,9 +234,6 @@ p.intro {
 	list-style-type: none;
 }
 
-.menu {
-	width: 140%;	
-}
 .top-space {
 	float: left;
 	height: 120px;
@@ -236,7 +241,6 @@ p.intro {
 }
 
 .main-feature {
-
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 50px;
@@ -250,22 +254,10 @@ p.intro {
 	margin-top: 50px;
 	float: left;
 	font-size: 40px;
-	color: blue;
-	padding: 0;
 }
 
-
-#bt {
-	height: 10px;
-}
-#br {
-	width: 10px;
-}
-#bb {
-	height: 10px;
-}
-#bl {
-	width: 10px;
+.feature ul {
+	padding-left: 0px;
 }
 
 

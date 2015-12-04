@@ -14,8 +14,8 @@
 
 body {
 	font-family: Helvetica,sans-serif;
-	font-weight: 700;
-	font-size: 16px;
+	font-weight: 300;
+	font-size: 19px;
 	color: black;
 	line-height: 1.4;
 }
@@ -167,20 +167,16 @@ content: none;
 
 	.menu {
 		position: relative;
+	}
 
+	.menu ul {
+	padding-left: 30px;
 	}
 
 	.header-wrapper {
-	margin-bottom: 60px;
-}
-
-	.header-logo {
-		float: left;
-		position: fixed;
-		font-size: 100px;
-		margin: 2.5%;
-		/*max-width: 50%;*/
+		margin-bottom: 60px;
 	}
+
 
 	#section {
 		margin-left: 5%;
@@ -243,23 +239,16 @@ content: none;
 	width: 100%;
 }
 
-.menu {
-	width: 200%;	
-}
 }
 
 @media only screen and (max-width : 480px) {
 
+.header-wrapper {
+	margin-bottom: 10px;
+}
 
-.header-logo {
-	z-index: 301;
-	float: left;
-	position: fixed;
-	font-size: 80px;
-	color: red;
-	margin: 2.5%;
-	/*max-width: 50%;*/
-	padding: 0;
+.menu ul {
+	padding-left: 20px;
 }
 
 #header-wrap {
@@ -284,9 +273,6 @@ content: none;
 	height: 120px;
 	width: 100%;
 }
-
-
-
 
 }
 
