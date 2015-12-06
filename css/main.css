@@ -23,7 +23,7 @@
 }
 
 .menu ul {
-	font-size: 19px;
+	font-size: 16px;
 	letter-spacing: 2px;
 	color: red;
 	list-style: none;
@@ -32,7 +32,7 @@
 .menu li {
 	display: inline;
 	margin-bottom: 10px;
-	margin-right: 50px;
+	margin-right: 30px;
 	border-bottom: 2px solid black;
 }
 
