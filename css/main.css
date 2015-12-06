@@ -185,7 +185,7 @@ content: none;
 
 	.overlay span {
 		visibility: visible;
-		color: blue;
+		color: black;
 		position: static;
 		display: inline-block;
 		height: 100px;
