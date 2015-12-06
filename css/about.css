@@ -103,7 +103,7 @@ a:hover {
 }
 
 .list li {
-	padding-bottom: 15px;
+	padding-bottom: 30px;
 }
 
 
@@ -205,6 +205,15 @@ a:hover {
 	padding: 0 0 20 0;
 }
 
+.feature h2 {
+	clear: both;
+	display: inline-block;
+	margin-bottom: 10px;
+	float: left;
+	font-size: 24px;
+	line-height: 30px;
+}
+
 .intro p {
 	font-size: 19px;
 	line-height: 25px;
@@ -220,6 +229,13 @@ a:hover {
 	margin-right: 30px;
 }
 
+.feature-big {
+	float:left;
+	width:90%;
+	margin-right: 45px;
+	margin-left: 0;
+	padding: 5px 0px;
+}
 
 .feature ul {
 	padding-left: 0px;
