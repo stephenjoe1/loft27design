@@ -219,7 +219,11 @@ a:hover {
 }
 
 .image-name a {
-    color: white;
+    color: blue;
+}
+
+.image-name a:hover {
+    color: black;
 }
 
 .project-name {
@@ -227,6 +231,7 @@ a:hover {
 	margin-bottom: 90px;
 	text-align: center;
 }
+
 
 /*.overlay {
     position:absolute;
