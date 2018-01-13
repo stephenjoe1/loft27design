@@ -72,7 +72,7 @@ content: none;
 
 .main-section {
 	max-width: 1400px;
-	margin-left: 3%;	
+	margin-left: 8%;	
 	clear: both;
 }
 
@@ -91,6 +91,10 @@ content: none;
 	font-size: 32px;
 	line-height: 40px;
 }
+
+
+
+/*// intro copy */
 
 .intro p.lede {
 	font-size: 32px;
@@ -118,18 +122,66 @@ content: none;
 	margin-top: 30px;
 }
 
-.right-aside {
-	float:left;
-	width:30%;
-	margin-right: 45px;
-	padding: 20px 0px 20px 0px;
-}
-
 .intro {
 	float:left;
 	width:60%;
 	margin-right: 45px;
 	padding: 12px 0px;
+}
+
+/*// end*/
+
+/*// project-intro copy */
+.project-intro {
+	float:left;
+	margin-bottom: 30px;
+}
+
+.project-intro h1 {
+	font-size: 90px;
+	line-height: 60px;
+	margin-bottom: 90px;
+	width:60%;
+}
+
+.project-intro h2 {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 30px;
+	margin-top: 60px;
+	width:60%;
+}
+
+.project-intro p {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	width:60%;
+}
+
+.project-intro p a {
+	text-decoration: none;
+	color: blue;
+}
+
+.project-intro p a:hover {
+	color: black;
+}
+
+.project-intro img {
+	max-width: 960px;
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+/*// end*/
+
+.right-aside {
+	float:left;
+	width:30%;
+	margin-right: 45px;
+	padding: 20px 0px 20px 0px;
 }
 
 .right-aside:last-of-type {
@@ -400,6 +452,13 @@ a:hover {
 	margin-top: 30px;
 }
 
+.project-intro img {
+	max-width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 }
 
 @media only screen and (max-width : 720px) {
@@ -463,6 +522,32 @@ a:hover {
 .right-aside ul {
 	padding-left: 0px;
 }
+
+/*// project-intro copy */
+.project-intro {
+	float:left;
+	margin-bottom: 10px;
+}
+
+.project-intro p {
+	font-size: 19px;
+	line-height: 25px;
+	width: 90%;
+}
+
+.project-intro h1 {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+.project-intro h2 {
+	font-size: 24px;
+	line-height: 30px;
+	width: 90%;
+}
+
 
 }
 
