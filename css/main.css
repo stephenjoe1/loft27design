@@ -72,7 +72,7 @@ content: none;
 
 .main-section {
 	max-width: 1400px;
-	margin-left: 8%;	
+	margin-left: 3%;	
 /*	clear: both;*/	
 	margin-bottom: 90px;
 }
@@ -80,7 +80,7 @@ content: none;
 .feature-big {
 	float:left;
 	width:60%;
-	margin-top: 15px;
+	margin-top: 0px;
 	margin-right: 45px;
 	margin-left: 0;
 	padding: 5px 0px;
@@ -139,9 +139,11 @@ content: none;
 }
 
 .project-intro h1 {
-	font-size: 90px;
-	line-height: 60px;
-	margin-bottom: 60px;
+	font-size: 84px;
+	line-height: 90px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 15%;
 	width:50%;
 }
 
@@ -151,7 +153,7 @@ content: none;
 	margin-bottom: 30px;
 	margin-top: 60px;
 	width:50%;
-	margin-left: 10%;
+	margin-left: 15%;
 	font-weight: 400;
 }
 
@@ -160,7 +162,7 @@ content: none;
 	line-height: 30px;
 	margin-bottom: 30px;
 	margin-top: 0px;
-	margin-left: 10%;
+	margin-left: 15%;
 	width:50%;
 }
 
@@ -229,13 +231,16 @@ content: none;
 }
 
 .list {
-	margin-bottom: 30px;
+	margin-top: 90px;
+	margin-bottom: 90px;
+
 }
 
 .list ul {
-	font-size: 24px;
-	line-height: 30px;
+	font-size: 32px;
+	line-height: 40px;
 	list-style-type: none;
+	padding-left: 0px;
 }
 
 .list li {
@@ -348,9 +353,6 @@ a:hover {
 }
 
 .project-intro h1 {
-	font-size: 90px;
-	line-height: 90px;
-	margin-bottom: 60px;
 	margin-left: 0%;
 	width:75%;
 }
@@ -391,7 +393,9 @@ a:hover {
 }
 
 /*// end*/
-
+.list ul {
+    padding-left: 0px;
+}
 
 }
 
@@ -453,6 +457,10 @@ a:hover {
 	padding: 5px 0px;
 }
 
+.list ul {
+    padding-left: 0px;
+}
+
 .right-aside ul {
 	padding-left: 0px;
 }
@@ -507,7 +515,6 @@ a:hover {
 
 /*// end*/
 
-
 }
 
 @media only screen and (max-width : 480px) {
@@ -520,22 +527,6 @@ a:hover {
 	padding-left: 10px;
 }
 
-/*#header-wrap {
-	max-width: 100%;
-	position: relative;
-	margin: 20px 20px 20px 20px;
-	overflow: hidden;
-}*/
-
-/*#menu {
-	z-index: 300;
-	float: right;
-	position: fixed;
-	font-size: 19px;
-	margin: 4% 2.5% 2.5% 50%;
-	color: red;
-	list-style-type: none;
-}*/
 
 .intro {
 	width:100%;
@@ -573,6 +564,7 @@ a:hover {
 	float: left;
 	font-size: 40px;
 }
+
 
 .right-aside ul {
 	padding-left: 0px;
