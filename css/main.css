@@ -47,7 +47,7 @@ h1 {
 
 .menu ul {
 	font-size: 16px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	list-style: none;
 }
 
@@ -97,6 +97,12 @@ content: none;
 
 /*// intro copy */
 
+.intro h1 {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
 .intro p.lede {
 	font-size: 32px;
 	line-height: 40px;
@@ -142,7 +148,7 @@ content: none;
 	font-size: 84px;
 	line-height: 90px;
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 45px;
 	margin-left: 15%;
 	width:50%;
 }
@@ -150,17 +156,17 @@ content: none;
 .project-intro h2 {
 	font-size: 32px;
 	line-height: 40px;
-	margin-bottom: 30px;
-	margin-top: 60px;
+	margin-bottom: 20px;
+	margin-top: 30px;
 	width:50%;
 	margin-left: 15%;
 	font-weight: 400;
 }
 
 .project-intro p {
-	font-size: 24px;
-	line-height: 30px;
-	margin-bottom: 30px;
+	font-size: 19px;
+	line-height: 25px;
+	margin-bottom: 15px;
 	margin-top: 0px;
 	margin-left: 15%;
 	width:50%;
@@ -178,12 +184,7 @@ content: none;
 .project-intro img {
 	max-width: 960px;
 	margin-top: 45px;
-	margin-bottom: 30px;
-}
-
-.project-web-link {
-	padding-top: 30px;
-	border-top: 1px solid black;
+	margin-bottom: 15px;
 }
 
 /*// end*/
@@ -288,6 +289,38 @@ a:hover {
 	font-size: 32px;
 	margin-bottom: 90px;
 	text-align: center;
+}
+
+/*// small links */
+
+.project-link-bottom {
+	padding-top: 30px;
+	border-top: 1px solid #BFC1C3;
+	letter-spacing: 3px;
+	font-size: 16px!important;
+}
+
+.link-description {
+	display: block;
+	font-size: 12px;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.project-link {
+	display: block;
+	font-size: 16px;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.project-link a {
+	color: blue;
+	text-decoration: none;
+}
+
+.project-link a:hover {
+	color: black;
 }
 
 
