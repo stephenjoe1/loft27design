@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 	<head>
 		<title>Loft27</title>
 		<meta charset="utf-8">
@@ -7,50 +7,82 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/about.css">
 		<link rel="stylesheet" href="main.css" type="text/css" charset="utf-8" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
+
+			    // Make sure this.hash has a value before overriding default behavior
+			    if (this.hash !== "") {
+			      // Prevent default anchor click behavior
+			      event.preventDefault();
+
+			      // Store hash
+			      var hash = this.hash;
+
+			      // Using jQuery's animate() method to add smooth page scroll
+			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+			   
+			        // Add hash (#) to URL when done scrolling (default click behavior)
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+		</script>
+
 	</head> 
 	<body>
-		<div class="header-wrapper">
+		<div class="header-wrapper"> 
 				<div class="menu">
 					<ul>
-						<li><a href="#">L27</a></li>
+						<li><a class="home-link" href="#">L27 ⟶</a></li>
+						<li><a href="#info">INFO</a></li>
+						<li><a href="#work">WORK</a></li>
 						<li><a href="writing.html">WRITING</a></li>
 					</ul>
 				</div>
-		</div>
+				<section class="intro fluid ">	
+					<img src="images/car-header.png" alt="car crash icon for gio insurance">
+				</section>
+		</div>		
+
 		<div class="main-section">
-			<div class="intro">
+			<div class="intro-about" id="info">
  				<h1 class="big-heading">I work for the <a href="https://www.gov.uk/design-principles">Government Digital Service</a>.</h1> 
  				<p class="lede">
- 				I’m currently Head of Design for a programme of work called Government as a Platform – building a set of shared products that make services easier to create and cheaper to run. Prior to that I helped design <a href="https://www.gov.uk">GOV.UK</a>, winner of <a href="http://www.bbc.co.uk/news/entertainment-arts-22164715">Design of the Year</a> and a D&AD black pencil.<p>
-
-			</div>
-			
+ 				I’m currently Head of Design for a programme of work called Government as a Platform – building a set of shared products that make services easier to create and cheaper to run. Prior to that I helped design <a href="https://www.gov.uk">GOV.UK</a>, winner of <a href="http://www.bbc.co.uk/news/entertainment-arts-22164715">Design of the Year</a> and a D&AD black pencil.</p>
+			</div>			
 			<div class="right-aside">
 				<ul>
-					<li><a href="https://twitter.com/loft27design">Twitter<a></li>
-					<li><a href="https://uk.linkedin.com/in/stephen-mccarthy-0aa09810">LinkedIn<a></li>
-					<li><a href="http://www.loft27design.tumblr.com/">Tumblr<a></li>
-					<li><a href="https://github.com/stephenjoe1">GitHub<a></li>
+					<li><a href="https://twitter.com/loft27design">Twitter</a></li>
+					<li><a href="https://uk.linkedin.com/in/stephen-mccarthy-0aa09810">LinkedIn</a></li>
+					<li><a href="http://www.loft27design.tumblr.com/">Tumblr</a></li>
+					<li><a href="https://github.com/stephenjoe1">GitHub</a></li>
 					<li><a class="email" href="mailto:loft27design@gmail.com">
 					Email</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<div id="work-section">
-			<div class="image-name shade">
+		<div class="work-section" id="work">
+			<div class="image-name">
 		    	<img src="images/govdesign-posters-meetup.jpg">
 		        <p class="project-name"><a href="http://gov-design.com/">#GovDesign meetup</a></p>
 			</div>
-			<div class="image-name shade">
+			<div class="image-name">
 		    	<img src="images/gaap-screens.png">
 		        <p class="project-name"><a href="http://gov.uk/service-toolkit/">Government as a Platform</a></p>
 			</div>
-			<div class="image-name shade">
+			<div class="image-name">
 		    	<img src="images/xgov-meeting.jpg">
 		        <p class="project-name">Cross-government design meeting</p>
 			</div>
-			<div class="image-name shade">
+			<div class="image-name">
 		    	<img src="images/govuk-01.jpg">
 		        <p class="project-name"><a href="project-govuk.html">GOV.UK</a></p>
 			</div>
