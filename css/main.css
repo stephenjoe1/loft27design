@@ -22,6 +22,7 @@ body {
 	margin: 0px;
 }
 
+
 h1 { 
 	font-weight: normal;
 	font-size: 32px;
@@ -266,8 +267,8 @@ content: none;
 .project-intro h2 {
 	font-size: 32px;
 	line-height: 40px;
-	margin-bottom: 20px;
-	margin-top: 30px;
+	margin-bottom: 15px;
+	margin-top: 45px;
 	width:50%;
 	margin-left: 15%;
 	font-weight: 400;
@@ -281,6 +282,14 @@ content: none;
 	margin-left: 15%;
 	width:50%;
 }
+
+.credit p {
+	font-size: 14px;
+	line-height: 18px;
+	color: #6f777b;
+	margin-bottom: 60px;
+}
+
 
 .project-intro p a {
 	text-decoration: none;
@@ -381,7 +390,7 @@ a:hover {
 
 .project-link {
 	display: block;
-	font-size: 16px;
+	font-size: 14px;
 	color: black;
 	letter-spacing: 3px;
 }
@@ -608,8 +617,8 @@ a:hover {
 }
 
 .project-intro h1 {
-	font-size: 60px;
-	line-height: 60px;
+	font-size: 44px;
+	line-height: 48px;
 	margin-bottom: 30px;
 	margin-left: 0%;
 	width:90%;
@@ -640,6 +649,13 @@ a:hover {
 	margin-left: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.credit p {
+	font-size: 12px;
+	line-height: 14px;
+	color: #6f777b;
+	margin-bottom: 45px;
 }
 
 /*// end*/
