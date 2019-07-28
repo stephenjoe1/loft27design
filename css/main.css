@@ -516,6 +516,13 @@ a:hover {
     padding-left: 0px;
 }
 
+.credit p {
+	font-size: 14px;
+	line-height: 18px;
+	color: #6f777b;
+	margin-bottom: 45px;
+}
+
 }
 
 @media only screen and (max-width : 720px) {
