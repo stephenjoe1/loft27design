@@ -695,7 +695,7 @@ a:hover {
 
 
 .big-heading {
-	margin-top: 30px;
+	margin-top: 24px;
 }
 
 #header-wrap {
@@ -727,6 +727,11 @@ a:hover {
 
 .right-aside ul {
 	padding-left: 0px;
+}
+
+.intro-about h1 {
+	font-size: 24px;
+	line-height: 30px;
 }
 
 
