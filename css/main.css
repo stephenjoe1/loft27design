@@ -14,6 +14,8 @@
        url('fonts/SuisseIntl-Book-WebXL.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+
+
 body {
 	font-family: 'SuisseIntl-Book-WebXL', Helvetica neue, Helvetica, sans-serif;
 	font-size: 19px;
@@ -171,7 +173,7 @@ content: none;
 .intro-about h1 {
 	font-size: 32px;
 	line-height: 40px;
-	margin-bottom: 30px;
+	margin-bottom: 45px;
 }
 
 .intro-about p.lede {
@@ -269,9 +271,8 @@ content: none;
 	line-height: 40px;
 	margin-bottom: 15px;
 	margin-top: 45px;
-	width:50%;
+	width: 50%;
 	margin-left: 15%;
-	font-weight: 400;
 }
 
 .project-intro p {
