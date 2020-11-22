@@ -756,6 +756,17 @@ a:hover {
 .intro-about h1 {
 	font-size: 24px;
 	line-height: 30px;
+	margin-top: 60px;
+}
+
+.list {
+	margin-top: 45px;
+}
+
+.list li {
+	font-size: 24px;
+	line-height: 30px;
+
 }
 
 
