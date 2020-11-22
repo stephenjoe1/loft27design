@@ -555,6 +555,10 @@ a:hover {
 	font-size: 40px;
 }
 
+.menu {
+	padding-bottom: 25px;
+}
+
 
 .right-aside {
 	float:left;
@@ -646,7 +650,7 @@ a:hover {
 	font-size: 24px;
 	line-height: 30px;
 	margin-bottom: 30px;
-	margin-top: 15px;
+	margin-top: 45px;
 	margin-left: 0%;
 	width:90%;
 	font-weight: 400;
@@ -694,10 +698,11 @@ a:hover {
 
 .project-intro {
 	font-size: 19px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
 
 .menu ul {
 	padding-left: 10px;
