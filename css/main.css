@@ -192,8 +192,9 @@ content: none;
 	color: blue;
 }
 
-.intro p.lede a:hover {
+.intro-about p.lede a:hover {
 	color: black;
+	text-decoration: underline;
 }
 
 .intro-about p {
@@ -618,7 +619,7 @@ a:hover {
 
 .feature-big {
 	float:left;
-	width:90%;
+	width: 90%;
 	margin-right: 45px;
 	margin-left: 0;
 	padding: 5px 0px;
