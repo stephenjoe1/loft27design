@@ -175,8 +175,8 @@ content: none;
 }
 
 .intro-about p.lede {
-	font-size: 30px;
-	line-height: 36px;
+	font-size: 48px;
+	line-height: 50px;
 	margin-bottom: 30px;
 	margin-top: 0px;
 }
@@ -606,8 +606,8 @@ a:hover {
 
 
 .intro-about p.lede {
-	font-size: 19px;
-	line-height: 25px;
+	font-size: 30px;
+	line-height: 36px;
 	margin-right: 20px;
 }
 
