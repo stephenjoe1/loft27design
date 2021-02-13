@@ -14,6 +14,16 @@
        url('fonts/SuisseIntl-Book-WebXL.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'SuisseIntl-Bold-WebXL';
+  src: url('fonts/SuisseIntl-Bold-WebXL.eot'); /* IE9 Compat Modes */
+  src: url('fonts/SuisseIntl-Bold-WebXL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/SuisseIntl-Bold-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/SuisseIntl-Bold-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/SuisseIntl-Bold-WebXL.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/SuisseIntl-Bold-WebXL.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 body {
 	font-family: 'SuisseIntl-Book-WebXL', Helvetica neue, Helvetica, sans-serif;
 	font-size: 19px;
@@ -175,6 +185,7 @@ content: none;
 }
 
 .intro-about p.lede {
+	font-family: 'SuisseIntl-Bold-WebXL', Helvetica neue, Helvetica, sans-serif;
 	font-size: 48px;
 	line-height: 50px;
 	margin-bottom: 30px;
@@ -271,6 +282,7 @@ content: none;
 }
 
 .project-intro h2 {
+	font-family: 'SuisseIntl-Bold-WebXL', Helvetica neue, Helvetica, sans-serif;
 	font-size: 32px;
 	line-height: 40px;
 	margin-bottom: 15px;
