@@ -362,6 +362,12 @@ a:hover {
 	z-index: 10;
 }
 
+.work-section-2-column { 
+	width: 50%;
+	float: left;
+	padding: 15px;
+}
+
 /*.work-section:target {
 	padding-top: 90px; 
 }*/
@@ -383,6 +389,7 @@ a:hover {
 
 .image-name a:hover {
     color: black;
+    text-decoration: underline;
 }
 
 .project-name {
