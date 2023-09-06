@@ -392,11 +392,23 @@ a:hover {
     text-decoration: underline;
 }
 
-.project-name {
-	font-size: 24px;
+.project-title {
+	font-family: 'SuisseIntl-Bold-WebXL', Helvetica neue, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	text-align: left;
+	font-weight: 400;
+}
+
+.project-summary {
+	font-size: 19px;
 	margin-bottom: 90px;
 	text-align: left;
 }
+
+
 
 /*// small links */
 
@@ -538,10 +550,13 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-.project-name {
+.project-summary {
 	margin-left: 3%;
 }
 
+.project-title {
+	margin-left: 3%;
+}
 
 /*// end*/
 .list ul {
@@ -736,8 +751,15 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-.project-name {
+.project-title {
 	font-size: 19px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.project-summary {
+	font-size: 16px;
 	margin-bottom: 60px;
 	margin-left: 10px;
 }
